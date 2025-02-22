@@ -9,7 +9,13 @@
 - The `prepare_data` folder contains all logic for cleaning and preparing the data.
 - The `workspace` folder contains subfolders for each member's workspace.
 
-### 2. Workflow
+### 2. Purpose
+
+- Predict the revenues of 10 stores (`CA_1`, `CA_2`, `CA_3`, `CA_4`, `TX_1`, `TX_2`, `TX_3`, `WI_1`, `WI_2`, `WI_3`) from day `25-04-2016` (`d_1914`) to `22-05-2016` (`d_1941`).
+
+- Note: Submission dataframe could be generated using `evaluation/revenue_sample_submission_generator.ipynb`.
+
+### 3. Workflow
 
 - Each member works on creating and training models in their own workspace.
 - After training a model, use `evaluation/revenue_sample_submission_generator.ipynb` to generate a submission dataframe.
